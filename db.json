@@ -1,7 +1,7 @@
 {
   "buses": [
-    { "id": "super-metro", "name": "Super Metro", "departure": "09:00 AM", "arrival": "12:00 PM", "price": "KES500", "remaining": 10, "images": ["bluebus.jpeg"] },
-    { "id": "kbs", "name": "KBS", "departure": "10:00 AM", "arrival": "01:00 PM", "price": "KES600", "remaining": 15, "images": ["linebus.jpeg"] },
+    { "id": "super-metro", "name": "Super Metro", "departure": "09:00 AM", "arrival": "12:00 PM", "price": "KES500", "remaining": 22, "images": ["bluebus.jpeg"] },
+    { "id": "kbs", "name": "KBS", "departure": "10:00 AM", "arrival": "01:00 PM", "price": "KES600", "remaining": 30, "images": ["linebus.jpeg"] },
     { "id": "lopha", "name": "Lopha", "departure": "11:00 AM", "arrival": "02:00 PM", "price": "KES700", "remaining": 20, "images": ["Montana Turismo 400.jpeg"] },
     { "id": "easycoach", "name": "Easycoach", "departure": "12:00 PM", "arrival": "03:00 PM", "price": "KES800", "remaining": 18, "images": ["coolbus.jpeg"] }
   ]
