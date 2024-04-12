@@ -17,7 +17,7 @@ Git
 
 Installation instruction
 
-git clone git@github.com:mvthiora21/SA.02-WK2-Code-Challenge.git
+git clone git@github.com:mvthiora21/PROJECT-1.0.git
 
 Live Link
 
@@ -28,6 +28,9 @@ Technologies used
 Visual Studio Code 
 Github
 Javascript
+HTML
+CSS
+JSON
 
 Support and contact details
 
