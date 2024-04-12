@@ -10,8 +10,18 @@ Author VICTOR NGUGI
 
 About BUS TICKET-BOOKING WEBSITE 
 
-Resources Readme License MIT license Activity Stars 0 stars Watchers 1 watching Forks 0 forks Report repository Releases No releases published Packages No packages published Languages JavaScript
+Resources Readme License MIT license Activity Stars 0 stars Watchers 1 watching Forks 0 forks Report repository Releases No releases published Packages No packages published
+
+Languages 
+
+JavaScript
 
 HTML
 
 CSS
+TECHNOLOGIES USED :
+Git
+
+Installation
+https://github.com/mvthiora21/PROJECT-1.0
+
