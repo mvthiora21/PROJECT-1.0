@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: cornflowerblue;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #007bff; /* Blue color */
-    color: red;
+    background-color: #007bff;
+    color: gold;
     text-align: center;
     padding: 20px 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -18,12 +18,18 @@ h1 {
     margin: 0;
 }
 
+footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
 main {
     padding: 20px;
 }
 
 .bus {
-    background-color: white;
+    background-color: yellow;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 20px;
@@ -31,7 +37,7 @@ main {
 }
 
 button {
-    background-color: #ff9800; /* Orange color */
+    background-color: #ff9800;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -40,18 +46,30 @@ button {
 }
 
 button:hover {
-    background-color: #f57c00; /* Darker shade of orange on hover */
+    background-color: #f57c00;
 }
-/* Add styles for bus images */
+
 .bus-image img {
-    width: 100%; /* Ensure the image fills the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Add border radius */
-    margin-top: 10px; /* Add spacing between bus info and image */
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-/* Adjust button alignment */
 .bus-info button {
-    margin-top: 10px; /* Add spacing between bus info and button */
+    margin-top: 10px;
 }
 
+/* Add styles for the welcome message and photo */
+#welcomeMessage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#welcomeMessage img {
+    display: block;
+    margin: 0 auto;
+}
+#welcomeMessage p {
+    font-size: 24px; 
+}
