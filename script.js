@@ -11,14 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Click event:', event);
     });
 
-    // Event listener for mouseover event
-    document.addEventListener('mouseover', function(event) {
-        console.log('Mouseover event:', event);
-    });
-
-    // Event listener for keypress event
-    document.addEventListener('keypress', function(event) {
-        console.log('Keypress event:', event);
+    // Event listener for change event
+    document.addEventListener('change', function(event) {
+        console.log('Change event:', event);
     });
 });
 
@@ -27,6 +22,13 @@ function displayBuses(buses) {
     buses.forEach(bus => {
         const busSection = document.createElement('section');
         busSection.classList.add('bus');
+        
+        // Iterate through the array of images for each bus
+        let imagesHTML = '';
+        bus.images.forEach(image => {
+            imagesHTML += `<img src="images/${image}" alt="${bus.name}">`;
+        });
+        
         busSection.innerHTML = `
             <div class="bus-info">
                 <h2>${bus.name}</h2>
@@ -37,8 +39,8 @@ function displayBuses(buses) {
                 <button onclick="purchaseTicket('${bus.id}')">Purchase Ticket</button>
                 <p id="${bus.id}-message"></p>
             </div>
-            <div class="bus-image">
-                <img src="${bus.image}" alt="${bus.name}">
+            <div class="bus-images">
+                ${imagesHTML}
             </div>
         `;
         busList.appendChild(busSection);
